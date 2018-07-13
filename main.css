@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700|IBM+Plex+Mono&subset=latin-ext');
+
+.animated {
+  -webkit-animation-duration:0.35s;animation-duration:0.35s;
+}
+
+body {
+  position: relative;
+  margin: 0 auto;
+  border: 0;
+  padding: 0;
+  color: #111; background-color: #f9f9f9;
+  font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem; color: #007cd3;
+}
+
+
+.main {
+  width: 100%; max-width: 1120px;
+  margin: 36px auto 36px auto;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+#logo { position: absolute; bottom: 0; right: 40px;}
+
+textarea {
+  width: 99%; max-width: 99%; min-width: 99%;
+  min-height: 10vh; height: 40vh;
+  margin: 0 0 0 0;
+  border: solid 1px #666; background-color: #fff;
+  padding: 2px 1px;
+  font-size: 16px;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 1.25;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 24px 0;
+  min-width: 120px;
+  border: 0;
+  padding: 8px;
+  background-color: #6490b0;
+  color: #000;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  border-right: solid 2px #416d8c; border-bottom: solid 2px #416d8c;
+}
+
+button:hover {
+  background-color: #4f93c4;
+}
