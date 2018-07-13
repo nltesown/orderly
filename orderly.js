@@ -22,10 +22,10 @@ function orderly(text) {
       d = " " + d.trim().replace(/\n/g, "¤") + " ";
 
       var w = _(d)
-        .words(/[^,.;?! «»"'’\(\)¤-]+/g)
+        .words(/[^,.;:?! «»"'’\/\(\)¤-]+/g)
         .value();
       var s = _(d)
-        .words(/[,.;?! «»"'’\(\)¤-]+/g)
+        .words(/[,.;:?! «»"'’\/\(\)¤-]+/g)
         .value();
 
       var first = s.shift();
